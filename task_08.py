@@ -4,8 +4,8 @@
 
 from data import FRUIT
 
-def get_cost_per_item(shoplist):
 
+def get_cost_per_item(shoplist):
     """get total cost of shoplist items based on shoplist quantities"""
 
     cost_per_item = {
@@ -13,9 +13,8 @@ def get_cost_per_item(shoplist):
         }
     return cost_per_item
 
-def get_total_cost(shoplist):
 
+def get_total_cost(shoplist):
     """returns total cost of shoplist"""
-    
     total_cost = sum(get_cost_per_item(shoplist).values())
     return total_cost
