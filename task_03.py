@@ -7,7 +7,7 @@ import data
 CORRECTED = data.BANDS.copy()
 
 CORRECTED['Dylan'] = {
-    'Bob Dylan' : ['vocals', 'guitar', 'harmonica']
+    'Bob Dylan': ['vocals', 'guitar', 'harmonica']
 }
 
 del CORRECTED['Van Halen']['David Lee Roth']

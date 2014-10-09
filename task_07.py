@@ -33,8 +33,11 @@ DATA = {
 }
 
 def iter_dict_funky_sum(dic):
-    rTotal = 0
-    for k, v in dic.iteritems():
-        rTotal += v - k
-    return rTotal
+    
+    """Dictionary -> funky sum"""
+    
+    R_Total = 0
+    for k, val in dic.iteritems():
+        R_Total += val - k
+    return R_Total
     
